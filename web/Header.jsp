@@ -51,11 +51,11 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <nav>
                                 <ul class="nav navbar-nav">
-                                    <li><a href="index.jsp" class="active">Home</a></li>
+                                    <li><a href="Index.jsp" class="active">Home</a></li>
                                     <li><a href="About.jsp">About</a></li>
 
                                     <li><a href="Departments.jsp">Departments</a></li>
-                                    <li><a href="Gllery.jsp">Gallery</a></li>
+                                    <li><a href="Gallery.jsp">Gallery</a></li>
                                     <li><a href="Login.html">Login</a></li>
                                     <li><a href="Registration.html">Registration</a></li>
 
