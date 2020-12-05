@@ -1,0 +1,225 @@
+
+Save to Drive Save to Drive save_alt Download
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<title>Bootstrap Simple Registration Form</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+ 
+body {
+	color: #fff;
+	background: #63738a;
+	font-family: 'Roboto', sans-serif;
+}
+.form-control {
+	height: 40px;
+	box-shadow: none;
+	color: #969fa4;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before {
+	left: 0;
+}
+.signup-form h2:after {
+	right: 0;
+}
+.signup-form .hint-text {
+	color: #DF2700;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}  
+</style>
+
+</head>
+<body>
+<div class="signup-form">
+ <form  method="post" action="register.jsp">
+		<h2>Register</h2>
+		<p class="hint-text">Create your account. It's free and only takes a minute.</p>
+        <div class="form-group">
+                   <input type="text" class="form-control" name="name" placeholder="Patient Name :"
+                          pattern="[A-Za-z]{4,}" 
+                          required="required">  
+           <div class="form-group">            
+           <p style="color:black;">Patient Height (in cm) :</p>
+             <input type="height" class="form-control" name="height" placeholder="Ex: 176" 
+                                    required="required">
+           </div>
+         
+         <div class="form-group">
+         <p style="color:black;">Patient Weight (in kg) :</p>
+             <input type="weight" class="form-control" name="weight" placeholder="Ex: 80" 
+                                    required="required">
+         </div>
+         <div class="form-group">
+            <input type="reason" class="form-control" name="reason" placeholder="Reason for visiting " required="required">
+        </div>
+       <div class="form-group">
+        	<input type="email" class="form-control" name="email" placeholder="Patient Email :"
+                    
+                       required="required">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+		<div class="form-group">
+                        <input type="number" class="form-control" name="phone" placeholder="Patient Phone :" 
+                               pattern="[6-9]{1}[0-9]{9}" title="Phone number with 7-9 and remaing 9 digit with 0-9"
+                               required="required">
+                </div>  
+               <p style="color:black;">Patient Gender :</p> 
+                    
+              
+          <div class="form-group">
+           <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                        <input type="radio" class="form-check-input" name="gen" value="MALE" required="required"/><label class="form-check-label">Male</label> 
+                  </div>
+                  <div class="col-sm-4">
+                        <input type="radio" class="form-check-input" name="gen" value="FEMALE" required="required"/><label class="form-check-label">Female</label>
+                  </div>
+                  <div class="col-sm-4">
+                        <input type="radio" class="form-check-input" name="gen" value="TRANS" required="required"/><label class="form-check-label">Transgender</label> 
+                  </div>
+                </div>
+           
+           </div>           
+     
+        </div>
+    
+               
+               
+        <div class="form-group row">
+                    <textarea class="form-control" name="address" placeholder="Patient Address :" required=""></textarea>  
+        </div>
+        <div class="form-group">
+              
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                             <input type="date" class="form-control" name="dob" placeholder="Date Of Birth" required=""/>  
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+              <h3>------Patient Medical History------ </h3>
+  <div class="form-group row">
+                    <textarea class="form-control" name="allergy" placeholder="Please list any drug allergies" ></textarea>  
+        </div>
+      <div class="form-group row">
+                    <textarea class="form-control" name="operation" placeholder="Please list any Operations and Dates of Each " ></textarea>  
+        </div>       
+              <div class="form-group row">
+                    <textarea class="form-control" name="med" placeholder="Please list your Current Medications " ></textarea>  
+        </div> 
+	
+   <p style="color:black;">Have you ever had (Please check all that apply):</p>
+  <input type="checkbox" id="disease1" name="disease1" value="Anemia">
+  <label for="disease1"> Anemia</label><br>
+  <input type="checkbox" id="disease2" name="disease2" value="Asthma">
+  <label for="disease2"> Asthma</label><br>
+  <input type="checkbox" id="disease3" name="disease3" value="Cancer">
+  <label for="disease3"> Cancer</label><br>
+  <input type="checkbox" id="disease4" name="disease4" value="Diabetes">
+  <label for="disease4"> Diabetes</label><br> 
+  <input type="checkbox" id="disease5" name="disease5" value="Emotional Disorder">
+  <label for="disease5"> Emotional Disorder</label><br>
+  <input type="checkbox" id="disease6" name="disease6" value="Heart Disease">
+  <label for="disease6"> Heart Disease</label><br>
+ <input type="checkbox" id="disease7" name="disease7" value="Heart Attack">
+  <label for="disease7"> Heart Attack</label><br>
+  
+
+ 
+<div class="form-group row">
+                    <textarea class="form-control" name="illness" placeholder="Any other illnesses" ></textarea>  
+        </div>
+
+
+<div class="form-group">
+            <input type="submit" class="btn btn-success btn-lg btn-block">
+        </div>
+        </div>
+ </form>
+          
+    
+	<div class="text-center">Already have an account? <a href="#">Sign in</a></div>
+</div>
+</body>
+</html>
