@@ -56,8 +56,8 @@
 
                                     <li><a href="Departments.jsp">Departments</a></li>
                                     <li><a href="Gallery.jsp">Gallery</a></li>
-                                    <li><a href="Login.html">Login</a></li>
-                                    <li><a href="Registration.html">Registration</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="P-register.html">Registration</a></li>
 
                                 </ul>
                             </nav>
