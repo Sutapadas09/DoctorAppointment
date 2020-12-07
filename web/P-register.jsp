@@ -1,7 +1,6 @@
 <%@page import="java.sql.PreparedStatement"%>
-<%@page import="dbcon.ConnectionDB"%>
+<%@page import="dbcon.ConnectionDb"%>
 <%@page import="java.sql.Connection"%>
-<%@page import="com.oreilly.servlet.MultipartRequest"%>
 <%@page import="text.EncryptText"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -30,7 +29,7 @@
     String disease6 = request.getParameter("disease6");
     String disease7 = request.getParameter("disease7");
     
-    Connection con = ConnectionDB.getConnection();
+    Connection con = ConnectionDb.getConnection();
     PreparedStatement ps= con.prepareStatement("insert into patient values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
     ps.setString(1, name);
     ps.setString(2, email);
@@ -51,7 +50,7 @@
     
     if(ps.executeUpdate()>0){
         out.print("Registration Successfull");
-        con.commit();
+        
         con.close();
     }else{
             out.print("Can't Register");
