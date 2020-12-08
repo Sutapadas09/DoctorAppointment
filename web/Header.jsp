@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Header
-    Created on : 3 Dec, 2020, 9:10:41 AM
-    Author     : Supriya
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -27,7 +22,6 @@
                         <ul class="forms_right">
                             <li><a href="appointment.html"> Make an Appointment</a> </li>
                         </ul>
-
                     </div>-->
                     <div class="clearfix"> </div>
                 </div>
@@ -65,7 +59,7 @@
                                             <li class="divider"></li>
                                             <li><a href="clinic_register.html">clinic-registration</a></li>
                                             <li class="divider"></li>
-                                            <li><a href="doctor register.html">doctor-registration</a></li>
+                                            <li><a href="doctor_register.html">doctor-registration</a></li>
                                             
                                             
                                             
