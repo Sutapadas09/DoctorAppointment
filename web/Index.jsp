@@ -15,6 +15,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 
     <head>
+        
         <title>Online Doctor Appointment </title>
         <!--/tags -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,6 +38,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <link href="css/font-awesome.css" rel="stylesheet">
         <!-- //for bootstrap working -->
         <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
+        <link href="css/mycss.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
@@ -106,7 +108,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <h3 class="heading-agileinfo">Welcome To Our Clinic!<span>We offer extensive medical procedures to outbound and inbound patients.</span></h3>
                 <div class="container">
                     <div class="w3-flex">
-                        <div class="col-md-4 col-sm-4 ab1 agileits-about-grid1">
+                        <div  class="col-md-4 col-sm-4 ab1 agileits-about-grid1 changes-text">
                             <h4 class="agileinfo-head">For Adults</h4>
                             <p>You can call our highly experienced clinical team if your child, teenager or family is going through difficulties.</p>
                             <h5>ANXIETY </h5>
@@ -115,7 +117,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <h5>BIPOLAR DISORDER</h5>
                             <h5>A – Z OF ISSUES</h5>
                         </div>
-                        <div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
+                        <div class="col-md-4 col-sm-4 ab1 agileits-about-grid2 changes-text">
 
                             <h4 class="agileinfo-head">For Children</h4>
                             <p>You can call our highly experienced clinical team if your child, teenager or family is going through difficulties.</p>
@@ -125,7 +127,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <h5>ANXIETY DISORDERS</h5>
                             <h5>A – Z OF ISSUES</h5>
                         </div>
-                        <div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
+                        <div class="col-md-4 col-sm-4 ab1 agileits-about-grid3 changes-text">
 
                             <h4 class="agileinfo-head">For Business</h4>
                             <p>You can call our highly experienced clinical team if your child, teenager or family is going through difficulties.</p>
@@ -170,21 +172,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <h3 class="heading-agileinfo">Therapies & Treatments<span>We offer extensive medical procedures to outbound and inbound patients.</span></h3>
 
                 <div class="services-top-grids">
-                    <div class="col-md-4">
+                    <div class="col-md-4 changetext1">
                         <div class="grid1">
                             <i class="fa fa-heartbeat" aria-hidden="true"></i>
                             <h4>Anxiety</h4>
                             <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 changetext1">
                         <div class="grid1">
                             <i class="fa fa-user-md" aria-hidden="true"></i>
                             <h4>Executive Coaching</h4>
                             <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 changetext1">
                         <div class="grid1">
                             <i class="fa fa-wheelchair-alt" aria-hidden="true"></i>
                             <h4>Depression</h4>
@@ -194,21 +196,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="clearfix"></div>
                 </div>
                 <div class="services-bottom-grids">
-                    <div class="col-md-4">
+                    <div class="col-md-4 changetext1">
                         <div class="grid1">
                             <i class="fa fa-medkit" aria-hidden="true"></i>
                             <h4>Relationships</h4>
                             <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 changetext1">
                         <div class="grid1">
                             <i class="fa fa-hospital-o" aria-hidden="true"></i>
                             <h4>Stress Management</h4>
                             <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 changetext1">
                         <div class="grid1">
                             <i class="fa fa-ambulance" aria-hidden="true"></i>
                             <h4>Support Group</h4>
@@ -308,7 +310,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <div class="inner_sec_info_agileits_w3">
                     <div class="col-md-4 grid_info">
-                        <div class="icon_info">
+                        <div class="icon_info changetext1">
                             <img src="images/g4.jpg" alt=" " class="img-responsive">
                             <h5>Nutrition Reference</h5>
                             <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
@@ -316,7 +318,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div>
                     </div>
                     <div class="col-md-4 grid_info">
-                        <div class="icon_info">
+                        <div class="icon_info changetext1">
                             <img src="images/g7.jpg" alt=" " class="img-responsive">
                             <h5>Injury Prevention</h5>
                             <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
@@ -324,7 +326,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div>
                     </div>
                     <div class="col-md-4 grid_info">
-                        <div class="icon_info">
+                        <div class="icon_info changetext1">
                             <img src="images/g6.jpg" alt=" " class="img-responsive">
                             <h5>Catheterization Lab</h5>
                             <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>

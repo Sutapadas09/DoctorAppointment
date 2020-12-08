@@ -19,16 +19,16 @@
                     <div class="header_left">
                         <ul>
                             <li><i class="fa fa-map-marker" aria-hidden="true"></i> 700102 Kolkata ,West Bengal</li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i> +91 8777461961</li>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="ghoshsupriya159@gmail.com">ghoshsupriya159@gmail.com</a></li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> +91 8546912769 </li>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="appointdoctor1@gmail.com">appointdoctor1@gmail.com</a></li>
                         </ul>
                     </div>
-                    <div class="header_right">
+                    <!--<div class="header_right">
                         <ul class="forms_right">
                             <li><a href="appointment.html"> Make an Appointment</a> </li>
                         </ul>
 
-                    </div>
+                    </div>-->
                     <div class="clearfix"> </div>
                 </div>
             </div>
@@ -57,8 +57,21 @@
                                     <li><a href="Departments.jsp">Departments</a></li>
                                     <li><a href="Gallery.jsp">Gallery</a></li>
                                     <li><a href="login.html">Login</a></li>
-                                    <li><a href="P-register.html">Registration</a></li>
+                                    <li class="dropdown active">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registration <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="pregister.html">patient-registration</a></li>
+                                            
+                                            <li class="divider"></li>
+                                            <li><a href="clinic_register.html">clinic-registration</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="doctor register.html">doctor-registration</a></li>
+                                            
+                                            
+                                            
 
+                                        </ul>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>

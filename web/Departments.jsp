@@ -15,7 +15,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 
     <head>
-        <title>New Clinic a Medical Category Bootstrap Responsive Web Template | Departments :: W3layouts </title>
+        <title>Online Doctor Appointment</title>
         <!--/tags -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -50,7 +50,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="services">
             <div class="container">
                 <h3 class="heading-agileinfo">Departments<span>We offer extensive medical procedures to outbound and inbound patients.</span></h3>
-
+                
                 <div class="services-top-grids">
                     <div class="col-md-4">
                         <div class="grid1">
@@ -153,11 +153,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <!-- js -->
         <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
         <script>
-$('ul.dropdown-menu li').hover(function () {
-    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-}, function () {
-    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-});
+            $('ul.dropdown-menu li').hover(function () {
+                $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+            }, function () {
+                $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+            });
         </script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
     </body>

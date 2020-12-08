@@ -15,7 +15,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 
     <head>
-        <title>New Clinic a Medical Category Bootstrap Responsive Web Template | About :: W3layouts </title>
+        <title>Doctor Appointment </title>
         <!--/tags -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
