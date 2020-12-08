@@ -16,7 +16,7 @@
     String fees = request.getParameter("fees");
     String selectspecialization = request.getParameter("select specialization");
     Connection con = ConnectionDb.getConnection();
-    PreparedStatement ps= con.prepareStatement("insert into student values(?,?,?,?,?,?,?,?,?,?)");
+    PreparedStatement ps= con.prepareStatement("insert into doctor values(?,?,?,?,?,?,?)");
     ps.setString(1, name);
     ps.setString(2, email);
     ps.setString(3, phone);

@@ -14,7 +14,7 @@
     String pass = request.getParameter("password");
     pass = EncryptText.getEncrypted(EncryptText.getEncrypted(EncryptText.getEncrypted(pass,"MD5"),"SHA-1"),"MD5");
     Connection con = ConnectionDb.getConnection();
-    PreparedStatement ps= con.prepareStatement("insert into student values(?,?,?,?,?,?,?,?,?,?)");
+    PreparedStatement ps= con.prepareStatement("insert into clinic values(?,?,?,?,?)");
     ps.setString(1, clinicname);
     ps.setString(2, username);
     ps.setString(3, userid);
