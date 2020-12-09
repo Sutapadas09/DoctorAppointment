@@ -42,14 +42,12 @@
             </style>
     </head>
     <body>
+        <div class="signup-form">
+            <form  method="post" action="register.jsp"></form>
 
 <div class="container">
-<br>  <p class="text-center">More bootstrap 4 components on <a href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com</a></p>
-<hr>
-
-
-
-
+<br>
+</br>
 
 <div class="card bg-light">
 <article class="card-body mx-auto" style="max-width: 400px;">
@@ -63,19 +61,19 @@
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 </div>
-        <input name="" class="form-control" placeholder="Clinic Name" type="text">
+        <input type="text" class="form-control" placeholder="Clinic Name" required="required">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		 </div>
-         <input name="" class="form-control" placeholder="User Name" type="text">
+         <input type="text" class="form-control" placeholder="User Name" required="required">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		 </div>
-        <input name="" class="form-control" placeholder="User Id" type="email">
+        <input type="email" class="form-control" placeholder="User Id" required="required">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
@@ -88,20 +86,15 @@
 		    <option value="2">+198</option>
 		    <option value="3">+701</option>
 		</select>
-    	<input name="" class="form-control" placeholder="Phone number" type="text">
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
-		
-        <input class="form-control" placeholder="Create password" type="password">
+    	<input type="text" class="form-control" placeholder="Phone number" required="required">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-		</div>
-        <input class="form-control" placeholder="Repeat password" type="password">
-    </div> <!-- form-group// -->                                      
+		
+        <input class="form-control" placeholder="password" type="password">
+    </div> <!-- form-group// -->
+                                  
     <div class="form-group">
         <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
     </div> <!-- form-group// -->      
