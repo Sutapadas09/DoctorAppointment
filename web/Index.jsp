@@ -220,7 +220,9 @@ SPEAK OUT !!  We All Are With You.</div>
                         <div class="grid1">
                             <i class="fa fa-ambulance" aria-hidden="true"></i>
                             <h4>Support Group</h4>
-                            <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
+                            <p> Whether you are dealing with a chronic illness, emotional problem, life transition, or want to enhance your health and well-being.
+                                But maybe you are feeling a little unsure ! In this case our Support Group is the 
+                                right choice for you . 
                         </div>
                     </div>
                     <div class="clearfix"></div>
