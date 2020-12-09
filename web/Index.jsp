@@ -317,24 +317,30 @@ SPEAK OUT !!  We All Are With You.</div>
                     <div class="col-md-4 grid_info">
                         <div class="icon_info changetext1">
                             <img src="images/g4.jpg" alt=" " class="img-responsive">
-                            <h5>Nutrition Reference</h5>
-                            <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+                            <h5>Laboratory</h5>
+                            <p>Fully computerized Biochemistry, Microbiology, Clinical Pathology & Hematology, Histopathology & Serology units.
+                                Can run more than 2000 tests round the clock.
+                                Blood bank with 1000 unit capacity and facilities for screening of 
+                                blood for Hepatitis B & C, VDRL, Malarial Parasites, & HIV/AIDS
+                            </p>
                             <a href="#" class="read-agileits" data-toggle="modal" data-target="#myModal">Read More</a>
                         </div>
                     </div>
                     <div class="col-md-4 grid_info">
                         <div class="icon_info changetext1">
-                            <img src="images/g7.jpg" alt=" " class="img-responsive">
-                            <h5>Injury Prevention</h5>
-                            <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+                            <img src="images/g10.jpg" alt=" " class="img-responsive">
+                            <h5>Ambulance Service</h5>
+                            <p>Dial +91 90382 24000 / +91 90382 25000
+Trained paramedic - physician cover for serious patients - ventilation and life support equipment.</p>
                             <a href="#" class="read-agileits" data-toggle="modal" data-target="#myModal">Read More</a>
                         </div>
                     </div>
                     <div class="col-md-4 grid_info">
                         <div class="icon_info changetext1">
-                            <img src="images/g6.jpg" alt=" " class="img-responsive">
-                            <h5>Catheterization Lab</h5>
-                            <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+                            <img src="images/g11.jpg" alt=" " class="img-responsive">
+                            <h5>Emergency Care</h5>
+                            <p>24x7 Consultant Emergency Physician Cover 24x7 Trauma and Emergency Surgery - Dedicated Trauma team - 
+                                Emergency Operation Theater within Emergency Department</p>
                             <a href="#" class="read-agileits" data-toggle="modal" data-target="#myModal">Read More</a>
                         </div>
                     </div>
@@ -354,15 +360,9 @@ SPEAK OUT !!  We All Are With You.</div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
                     </div>
                     <div class="modal-body">
-                        <img src="images/g7.jpg" alt=" " class="img-responsive" />
-                        <p>Ut enim ad minima veniam, quis nostrum 
-                            exercitationem ullam corporis suscipit laboriosam, 
-                            nisi ut aliquid ex ea commodi consequatur? Quis autem 
-                            vel eum iure reprehenderit qui in ea voluptate velit 
-                            esse quam nihil molestiae consequatur, vel illum qui 
-                            dolorem eum fugiat quo voluptas nulla pariatur.
-                            <i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
-                                esse quam nihil molestiae consequatur.</i></p>
+                        <img src="images/g12.jpg" alt=" " class="img-responsive" />
+                        <p>We are here to help you . Please register yourself or login and consult with our experts.
+                            <i>Search for a doctor who suits your needs.Please register / login to get started. </i></p>
                     </div>
                 </div>
             </div>
