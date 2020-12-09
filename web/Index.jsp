@@ -260,8 +260,7 @@ SPEAK OUT !!  We All Are With You.</div>
 
                                                     </div>
                                                     <div class="col-sm-9 test_img_info">
-                                                        <p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                                            auctor nec lacus ut tempor. Mauris.</p>
+                                                        <p>This is the best place for all of your health issues.</p>
                                                         <h6>Sara Lisbon</h6>
                                                     </div>
                                                 </div>
@@ -275,8 +274,7 @@ SPEAK OUT !!  We All Are With You.</div>
                                                         <img src="images/ts2.jpg" alt=" " class="img-responsive" />
                                                     </div>
                                                     <div class="col-sm-9 test_img_info">
-                                                        <p>Lorem ipsum dolor sit amet. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                                            auctor nec lacus ut tempor. Mauris.</p>
+                                                        <p>I'm Glad I am here for you .</p>
                                                         <h6>Jane Wearne</h6>
                                                     </div>
                                                 </div>
@@ -290,8 +288,7 @@ SPEAK OUT !!  We All Are With You.</div>
                                                         <img src="images/ts3.jpg" alt=" " class="img-responsive" />
                                                     </div>
                                                     <div class="col-sm-9 test_img_info">
-                                                        <p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                                            auctor nec lacus ut tempor. Mauris.</p>
+                                                        <p>Trust us and trust our facilities .</p>
                                                         <h6>Alice Williams</h6>
                                                     </div>
                                                 </div>
@@ -314,7 +311,7 @@ SPEAK OUT !!  We All Are With You.</div>
         <div class="banner-bottom">
             <div class="container">
                 <div class="tittle_head_w3layouts">
-                    <h3 class="heading-agileinfo">Case Studies<span>We offer extensive medical procedures to outbound and inbound patients.</span></h3>
+                    <h3 class="heading-agileinfo">24 X 7 SERVICES <span> Our website have these 24*7 facilities</span></h3>
                 </div>
                 <div class="inner_sec_info_agileits_w3">
                     <div class="col-md-4 grid_info">
