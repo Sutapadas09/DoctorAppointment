@@ -54,12 +54,12 @@
                                     <li class="dropdown active">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registration <b class="caret"></b></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="pregister.html">patient-registration</a></li>
+                                            <li><a href="patient_register.html">patient_registration</a></li>
                                             
                                             <li class="divider"></li>
-                                            <li><a href="clinic_register.html">clinic-registration</a></li>
+                                            <li><a href="clinic_register.html">clinic_registration</a></li>
                                             <li class="divider"></li>
-                                            <li><a href="doctor_register.html">doctor-registration</a></li>
+                                            <li><a href="doctor_register.html">doctor_registration</a></li>
                                             
                                             
                                             
