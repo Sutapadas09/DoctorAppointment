@@ -176,22 +176,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <div class="grid1">
                             <i class="fa fa-heartbeat" aria-hidden="true"></i>
                             <h4>Anxiety</h4>
-                            <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
-                        </div>
+                            <p> Feeling Afraid? - You Are Not Alone !!
+                                You may feel afraid about the wellbeing of a loved one during this time. Don't worry our medical team is with you .</div>
                     </div>
                     <div class="col-md-4 changetext1">
                         <div class="grid1">
                             <i class="fa fa-user-md" aria-hidden="true"></i>
                             <h4>Executive Coaching</h4>
-                            <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
+                            <p>Our Coaches all Have 5+ Years of Leadership Coaching Experience and an Advanced Degree. We Go Above & Beyond Other Leadership Coaching Providers. Learn How We Can Help You. Personalized Coaching. 
                         </div>
                     </div>
                     <div class="col-md-4 changetext1">
                         <div class="grid1">
                             <i class="fa fa-wheelchair-alt" aria-hidden="true"></i>
                             <h4>Depression</h4>
-                            <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
-                        </div>
+                            <p>"SUICIDE , DEPRESSION AND ADDICTION PREVENTION"
+                                your Life is worth a lot .<br>
+SPEAK OUT !!  We All Are With You.</div>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -200,14 +201,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <div class="grid1">
                             <i class="fa fa-medkit" aria-hidden="true"></i>
                             <h4>Relationships</h4>
-                            <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
+                            <p>It’s natural for all relationships to hit a rough patch from time to time. 
+                                Family bonds may deteriorate, friends might drift or relationships may reach a bitter.
+                               We Counseling you for relationships helps to heal this trauma.
+                      
                         </div>
                     </div>
                     <div class="col-md-4 changetext1">
                         <div class="grid1">
                             <i class="fa fa-hospital-o" aria-hidden="true"></i>
                             <h4>Stress Management</h4>
-                            <p>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
+                            <p>Stress Management Center Anger management workshop provided by Our Health Care is one of the best
+                                procedures to cure anger issues, as we let you share your stress and find the
+                                best solution for it.
                         </div>
                     </div>
                     <div class="col-md-4 changetext1">
