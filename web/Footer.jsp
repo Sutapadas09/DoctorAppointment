@@ -47,7 +47,7 @@
 				<ul class="address">
                                     <li><i class="fa fa-map-marker" aria-hidden="true"></i>700102 Kolkata ,West Bengal<span>700102 Kolkata ,West Bengal.</span></li>
 					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="appointdoctor1@gmail.com">appointdoctor@gmail.com</a></li>
-					<li><i class="fa fa-phone" aria-hidden="true"></i>+91 8546912769</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>+91-925-5517-244</li>
 				</ul>
 			</div>
 			<div class="col-md-3 footer_grid ">
