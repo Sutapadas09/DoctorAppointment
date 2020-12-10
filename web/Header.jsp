@@ -14,7 +14,7 @@
                     <div class="header_left">
                         <ul>
                             <li><i class="fa fa-map-marker" aria-hidden="true"></i> 700102 Kolkata ,West Bengal</li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i> +91-925-5517-244 </li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> +925-5517-244 </li>
                             <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="appointdoctor1@gmail.com">appointdoctor1@gmail.com</a></li>
                         </ul>
                     </div>
