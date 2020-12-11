@@ -1,7 +1,6 @@
 <%@page import="java.sql.PreparedStatement"%>
 <%@page import="dbcon.ConnectionDb"%>
 <%@page import="java.sql.Connection"%>
-<%@page import="com.oreilly.servlet.MultipartRequest"%>
 <%@page import="text.EncryptText"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
