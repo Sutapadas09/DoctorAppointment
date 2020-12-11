@@ -1,7 +1,7 @@
 <%@page import="java.sql.PreparedStatement"%>
 <%@page import="dbcon.ConnectionDb"%>
 <%@page import="java.sql.Connection"%>
-<%@page import="com.oreilly.servlet.MultipartRequest"%>
+
 <%@page import="text.EncryptText"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -29,9 +29,11 @@
     String disease5 = request.getParameter("disease5");
     String disease6 = request.getParameter("disease6");
     String disease7 = request.getParameter("disease7");
+    String illness = request.getParameter("illness");
     
     Connection con = ConnectionDb.getConnection();
-    PreparedStatement ps= con.prepareStatement("insert into patient values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+    
+    PreparedStatement ps= con.prepareStatement("insert into patient values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
     ps.setString(1, name);
     ps.setString(2, email);
     ps.setString(3, phone);
@@ -48,6 +50,8 @@
     ps.setString(14, disease5);
     ps.setString(15, disease6);
     ps.setString(16, disease7);
+    ps.setString(17,illness);
+    
     
     if(ps.executeUpdate()>0){
         out.print("Registration Successfull");
