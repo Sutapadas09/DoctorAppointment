@@ -1,5 +1,5 @@
 <%@page import="java.sql.PreparedStatement"%>
-<%@page import="dbcon.ConnectionDB"%>
+<%@page import="dbcon.Connectiondb"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="com.oreilly.servlet.MultipartRequest"%>
 <%@page import="text.EncryptText"%>
@@ -30,7 +30,7 @@
     String disease6 = request.getParameter("disease6");
     String disease7 = request.getParameter("disease7");
     
-    Connection con = ConnectionDB.getConnection();
+    Connection con = ConnectionDb.getConnection();
     PreparedStatement ps= con.prepareStatement("insert into patient values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
     ps.setString(1, name);
     ps.setString(2, email);
