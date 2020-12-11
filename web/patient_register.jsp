@@ -1,5 +1,5 @@
 <%@page import="java.sql.PreparedStatement"%>
-<%@page import="dbcon.Connectiondb"%>
+<%@page import="dbcon.ConnectionDb"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="com.oreilly.servlet.MultipartRequest"%>
 <%@page import="text.EncryptText"%>
