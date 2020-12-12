@@ -6,23 +6,20 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
    
-    String name = request.getParameter("doctor's name");
+    String name = request.getParameter("dname");
     String email = request.getParameter("email");
     String phone = request.getParameter("phone");
-    String pass = request.getParameter("password");
+    String pass = request.getParameter("pass");
     pass = EncryptText.getEncrypted(EncryptText.getEncrypted(EncryptText.getEncrypted(pass,"MD5"),"SHA-1"),"MD5");
-    String booking = request.getParameter("booking");
-    String fees = request.getParameter("fees");
-    String selectspecialization = request.getParameter("select specialization");
+    String selectspecialization = request.getParameter("spec");
     Connection con = ConnectionDb.getConnection();
-    PreparedStatement ps= con.prepareStatement("insert into doctor values(?,?,?,?,?,?,?)");
+    PreparedStatement ps= con.prepareStatement("insert into doctor values(?,?,?,?,?)");
     ps.setString(1, name);
     ps.setString(2, email);
     ps.setString(3, phone);
-    ps.setString(4, booking);
-    ps.setString(5, fees);
-    ps.setString(6, selectspecialization);
-    ps.setString(7, pass);
+    ps.setString(4, pass);
+    ps.setString(5, selectspecialization);
+    
     if(ps.executeUpdate()>0){
         out.print("Registration Successfull");
         con.close();
