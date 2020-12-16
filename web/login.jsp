@@ -12,25 +12,23 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
         <%
             Connection con= ConnectionDb.getConnection();
-            String loginAs = request.getParameter("login as");
+            String loginAs = request.getParameter("login_as");
             String email = request.getParameter("email");
             String pass = request.getParameter("pass");
-            out.print(con);
-            out.print(pass);
+            
             out.print(email);
             
             pass = EncryptText.getEncrypted(EncryptText.getEncrypted(EncryptText.getEncrypted(pass,"MD5"),"SHA-1"),"MD5");
             RequestDispatcher rd;
-            if(loginAs.equals(Patient)){
-            PreparedStatement ps = con.prepareStatement("select * from patient where Email=?");
+            PreparedStatement ps = con.prepareStatement("select * from "+loginAs+" where email=?");
+            out.print(pass);
             ps.setString(1, email);
             ResultSet rs = ps.executeQuery();
             if(rs.next()){
-                out.print(rs.getString("Password"));
-                    if(pass.equals(rs.getString("Password"))){
+                out.print(rs.getString("pass"));
+                    if(pass.equals(rs.getString("pass"))){
                         out.print("Success");
                         HttpSession sess = request.getSession();
                         Random r = new Random();
@@ -39,7 +37,8 @@
                         sess.setAttribute("name", rs.getString("Name"));
                         sess.setAttribute("email", rs.getString("Email"));
                         sess.setAttribute("log_key", key);
-                        response.sendRedirect("welcomePatient.jsp");
+                        sess.setAttribute("type",loginAs);
+                        response.sendRedirect("welcome.jsp");
                     }
                     else{
                         rd = request.getRequestDispatcher("login.html");
@@ -51,7 +50,7 @@
                 out.print("<script>alert('Invalid User Please Register')</script>");
                 //rd.include(request, response);            
             }
-            }
+            
         %>
     </body>
 </html>
