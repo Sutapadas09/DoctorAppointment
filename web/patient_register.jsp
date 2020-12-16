@@ -19,7 +19,7 @@
     String dob = request.getParameter("dob");
     Connection con = ConnectionDb.getConnection();
     
-    PreparedStatement ps= con.prepareStatement("insert into patient values(?,?,?,?,?,?,?,?,?)");
+    PreparedStatement ps= con.prepareStatement("insert into patient values(?,?,?,?,?,?,?,?,?,?)");
     ps.setString(1, name);
     ps.setString(2,height);
     ps.setString(3,weight);
@@ -29,6 +29,7 @@
     ps.setString(7, gender);
     ps.setString(8, add);
     ps.setString(9, dob);
+    ps.setString(10,"");
   
     
     
