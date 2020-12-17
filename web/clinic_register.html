@@ -61,19 +61,19 @@
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 </div>
-        <input type="text" class="form-control" placeholder="Clinic Name" required="required">
+        <input type="text" class="form-control" name="cname" placeholder="Clinic Name" required="required">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		 </div>
-         <input type="text" class="form-control" placeholder="User Name" required="required">
+         <input type="text" class="form-control" name="name" placeholder="User Name" required="required">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		 </div>
-        <input type="email" class="form-control" placeholder="User Id" required="required">
+        <input type="email" class="form-control" name="email" placeholder="User Id" required="required">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
@@ -81,23 +81,24 @@
 		</div>
      
 		<select class="custom-select" style="max-width: 120px;">
-		    <option selected="">+971</option>
-		    <option value="1">+972</option>
-		    <option value="2">+198</option>
-		    <option value="3">+701</option>
+		    <option selected="">+91</option>
+		 
 		</select>
-    	<input type="text" class="form-control" placeholder="Phone number" required="required">
+    	<input type="text" class="form-control" name="phone" placeholder="Phone number" required="required">
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
 		
-                    <input class="form-control" placeholder="Password" type="password" required="required">
+                    <input class="form-control" name="pass" placeholder="Password" type="password" required="required">
     </div> <!-- form-group// -->
                                   
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+        
+          <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+
     </div> <!-- form-group// -->      
+    
     <p class="text-center">Have an account? <a href="">Log In</a> </p>                                                                 
 </form>
 </article>
