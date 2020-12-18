@@ -37,7 +37,7 @@
         <br>
         <br>
         <div>
-            <button type="button" class="btn btn-primary">Book Appointment</button>
+           <button type="button" class="btn btn-primary">Book Appointment</button>
            <button type="button" class="btn btn-success">Show Appointment</button>
            <button type="button" class="btn btn-danger">Cancel Appointment</button>
            <button type="button" class="btn btn-dark">Edit Profile</button>
