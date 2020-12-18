@@ -46,9 +46,8 @@
                         <!--end user history div-->
                         <div class="card-footer text-muted text-center">
                             <button type="submit" class="btn btn-primary mr-2"id="check">Check</button>
-                            <button type="submit" class="btn btn-primary mr-2">Cancel Appointment</button>
-                            <button type="submit" class="btn btn-primary">Edit</button><br>
-                            <button type="submit" class="btn btn-primary mt-3"><a href="welcome.jsp"style="color: white;">Back</a></button>
+                            <button type="submit" class="btn btn-primary mr-2">Edit</button>
+                            <button type="submit" class="btn btn-primary"><a href="welcome.jsp"style="color: white;text-decoration:none;">Back</a></button>
                         </div>
                     </div>
                 </div>
