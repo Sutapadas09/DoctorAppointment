@@ -35,6 +35,7 @@
     
     if(ps.executeUpdate()>0){
         out.print("Registration Successfull");
+         response.sendRedirect("login.html");
         con.close();
     }else{
             out.print("Can't Register");

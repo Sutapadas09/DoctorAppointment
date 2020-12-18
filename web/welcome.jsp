@@ -17,7 +17,7 @@
             String t = ses.getAttribute("type").toString();
             if(t!=null){
                 if(t.equals("patient")){
-                    response.sendRedirect("welcomeP.html");
+                    response.sendRedirect("welcomeP.jsp");
                 }else if(t.equals("doctor")){
                     response.sendRedirect("welcomeD.html");
                 }else{
