@@ -30,13 +30,14 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/patient.jpg" class="d-block w-100" alt="...">
+                <img src="images/g12.jpg" class="d-block w-100" alt="...">
               </div>
              </div>
           </div>
         <br>
         <br>
         <div>
+            
            <button type="button" class="btn btn-primary">Book Appointment</button>
            <button type="button" class="btn btn-success">Show Appointment</button>
            <button type="button" class="btn btn-danger">Cancel Appointment</button>
