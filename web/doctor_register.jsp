@@ -20,13 +20,20 @@
     ps.setString(4, pass);
     ps.setString(5, selectspecialization);
     
+    try {
     if(ps.executeUpdate()>0){
         out.print("Registration Successfull");
-        con.close();
-    }else{
-            out.print("Can't Register");
-            con.close();
+         con.close();
     }
+    else{
+            out.print("Can't Register");
+            
+            con.close();
+      
+    }
+    
+    }catch (Exception e){}
+    
 %>
 
 
