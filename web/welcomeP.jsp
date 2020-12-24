@@ -36,15 +36,23 @@
           </div>
         <br>
         <br>
-        <div>
-            
-           <button type="button" class="btn btn-primary">Book Appointment</button>
-           <button type="button" class="btn btn-success">Show Appointment</button>
-           <button type="button" class="btn btn-danger">Cancel Appointment</button>
-           <button type="button" class="btn btn-dark">Edit Profile</button>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-primary">Book Appointment</button>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-success">Show Appointment</button>
+                </div>
+           <div class="col-md-3">
+               <button type="button" class="btn btn-danger">Cancel Appointment</button>
+           </div>
+           <div class="col-md-3">
+               <button type="button" class="btn btn-dark">Edit Profile</button>
+            </div>
         </div>   
-
-       
+        </div>
+       <br/>
+       <br/>
     </body>
 </html>

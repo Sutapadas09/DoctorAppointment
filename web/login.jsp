@@ -13,6 +13,7 @@
     </head>
     <body>
         <%
+            try{
             Connection con= ConnectionDb.getConnection();
             String loginAs = request.getParameter("login_as");
             String email = request.getParameter("email");
@@ -50,6 +51,9 @@
                 rd = request.getRequestDispatcher("login.html");
                 out.print("<script>alert('Invalid User Please Register')</script>");
                 //rd.include(request, response);            
+            }
+            }catch(Exception e){
+                out.print(e.getMessage());
             }
             
         %>

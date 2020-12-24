@@ -13,7 +13,7 @@
     pass = EncryptText.getEncrypted(EncryptText.getEncrypted(EncryptText.getEncrypted(pass,"MD5"),"SHA-1"),"MD5");
     String selectspecialization = request.getParameter("spec");
     Connection con = ConnectionDb.getConnection();
-    PreparedStatement ps= con.prepareStatement("insert into doctor values(?,?,?,?,?)");
+    PreparedStatement ps= con.prepareStatement("insert into doctor(name,email,phone,pass,specialization) values(?,?,?,?,?)");
     ps.setString(1, name);
     ps.setString(2, email);
     ps.setString(3, phone);
@@ -32,7 +32,9 @@
       
     }
     
-    }catch (Exception e){}
+    }catch (Exception e){
+        out.print(e.getMessage());
+    }
     
 %>
 
