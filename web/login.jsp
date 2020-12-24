@@ -39,6 +39,7 @@
                         sess.setAttribute("log_key", key);
                         sess.setAttribute("type",loginAs);
                         response.sendRedirect("welcome.jsp");
+                    
                     }
                     else{
                         rd = request.getRequestDispatcher("login.html");
