@@ -23,6 +23,7 @@
     try {
     if(ps.executeUpdate()>0){
         out.print("Registration Successfull");
+         response.sendRedirect("login.jsp");
          con.close();
     }
     else{
