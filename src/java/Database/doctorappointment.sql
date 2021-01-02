@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 24, 2020 at 02:34 PM
--- Server version: 10.4.16-MariaDB
--- PHP Version: 7.4.12
+-- Generation Time: Jan 02, 2021 at 09:44 AM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,24 @@ SET time_zone = "+00:00";
 --
 -- Database: `doctorappointment`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `clicnic_availability`
+--
+
+CREATE TABLE `clicnic_availability` (
+  `Sl_No` varchar(200) NOT NULL,
+  `Clinic Id` varchar(200) NOT NULL,
+  `Day0` varchar(200) DEFAULT NULL,
+  `Day1` varchar(200) DEFAULT NULL,
+  `Day2` varchar(200) DEFAULT NULL,
+  `Day3` varchar(200) DEFAULT NULL,
+  `Day4` varchar(200) DEFAULT NULL,
+  `Day5` varchar(200) DEFAULT NULL,
+  `Day6` varchar(200) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -46,23 +64,34 @@ CREATE TABLE `doctor` (
   `email` varchar(200) NOT NULL,
   `phone` varchar(15) NOT NULL,
   `pass` varchar(100) NOT NULL,
-  `specialization` varchar(150) NOT NULL,
-  `image` varchar(200) NOT NULL DEFAULT 'images/docs/doctor1.png'
+  `specialization` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `doctor`
 --
 
-INSERT INTO `doctor` (`name`, `email`, `phone`, `pass`, `specialization`, `image`) VALUES
-('My Doc1', 'doct1@gmail.com', '9876543210', '526641bd710f0e083d38ed9a216391c3', 'TRAUMOTOLOGY', 'images/docs/doctor1.png'),
-('My Doc2', 'doct2@gmail.com', '9876543210', '526641bd710f0e083d38ed9a216391c3', 'X-RAY', 'images/docs/doctor2.png'),
-('My Doc3', 'doct3@gmail.com', '9876543210', '526641bd710f0e083d38ed9a216391c3', 'PULMONARY', 'images/docs/doctor3.png'),
-('My Doc4', 'doct4@gmail.com', '9876543210', '526641bd710f0e083d38ed9a216391c3', 'PULMONARY', 'images/docs/doctor1.png'),
-('My Doc5', 'doct5@gmail.com', '9876543210', '526641bd710f0e083d38ed9a216391c3', 'NEUROLOGY', 'images/docs/doctor2.png'),
-('My Doc6', 'doct6@gmail.com', '7542310701', '526641bd710f0e083d38ed9a216391c3', 'GYNAECOLOGY', 'images/docs/doctor1.png'),
-('My Doc7', 'doct7@gmail.com', '7542310701', '526641bd710f0e083d38ed9a216391c3', 'FOR DISABLED', 'images/docs/doctor1.png'),
-('My Doc', 'doct@gmail.com', '7896541230', '526641bd710f0e083d38ed9a216391c3', 'CARDIOLOGY', 'images/docs/doctor3.png');
+INSERT INTO `doctor` (`name`, `email`, `phone`, `pass`, `specialization`) VALUES
+('My Doc', 'doct@gmail.com', '7896541230', '526641bd710f0e083d38ed9a216391c3', 'CARDIOLOGY');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `doctor_availability`
+--
+
+CREATE TABLE `doctor_availability` (
+  `Sl_No` varchar(200) NOT NULL,
+  `Doctor Id` varchar(200) NOT NULL,
+  `Clinic Id` varchar(200) NOT NULL,
+  `Day0` varchar(200) DEFAULT NULL,
+  `Day1` varchar(200) DEFAULT NULL,
+  `Day2` varchar(200) DEFAULT NULL,
+  `Day3` varchar(200) DEFAULT NULL,
+  `Day4` varchar(200) DEFAULT NULL,
+  `Day5` varchar(200) DEFAULT NULL,
+  `Day6` varchar(200) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -88,12 +117,19 @@ CREATE TABLE `patient` (
 --
 
 INSERT INTO `patient` (`name`, `height`, `weight`, `email`, `phone`, `pass`, `gender`, `address`, `dob`, `rotp`) VALUES
-('Gagandeep', '175', '55', 'gagan.training@gmail.com', '7896541230', '526641bd710f0e083d38ed9a216391c3', 'MALE', 'Chandannagar', '1995-10-07', ''),
-('Shreya Mukherjee', '170', '85', 'mukherjeeshreya874@gmail.com', '7896541230', '526641bd710f0e083d38ed9a216391c3', 'MALE', 'My Address', '1995-10-07', '');
+('Manisha Das', '200', '65', 'manisha@gmail.com', '9477462564', '526641bd710f0e083d38ed9a216391c3', 'FEMALE', 'Motijhil Lane,Chinsurah', '11/11/2002', ''),
+('Shreya Mukherjee', '170', '85', 'mukherjeeshreya874@gmail.com', '7896541230', '526641bd710f0e083d38ed9a216391c3', 'MALE', 'My Address', '1995-10-07', ''),
+('Sutapa Das', '200', '55', 'sutapa@gmail.com', '8777736903', '526641bd710f0e083d38ed9a216391c3', 'FEMALE', 'Motijhil Lane,Chinsurah,Hooghly', '23/01/1999', '');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `clicnic_availability`
+--
+ALTER TABLE `clicnic_availability`
+  ADD PRIMARY KEY (`Sl_No`);
 
 --
 -- Indexes for table `clinic`
@@ -106,6 +142,12 @@ ALTER TABLE `clinic`
 --
 ALTER TABLE `doctor`
   ADD PRIMARY KEY (`email`);
+
+--
+-- Indexes for table `doctor_availability`
+--
+ALTER TABLE `doctor_availability`
+  ADD PRIMARY KEY (`Sl_No`);
 
 --
 -- Indexes for table `patient`
