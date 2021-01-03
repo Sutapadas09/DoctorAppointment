@@ -19,7 +19,7 @@
                 if(t.equals("patient")){
                     response.sendRedirect("welcomeP.jsp");
                 }else if(t.equals("doctor")){
-                    response.sendRedirect("welcomeD.html");
+                    response.sendRedirect("welcomeD.jsp");
                 }else{
                     response.sendRedirect("welcome_clinic.jsp");
                 }

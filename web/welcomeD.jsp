@@ -72,7 +72,7 @@
          
         <%
             Connection con = ConnectionDb.getConnection();
-            PreparedStatement ps = con.prepareStatement("select doctor * from  where Email=?");
+            PreparedStatement ps = con.prepareStatement("select * from doctor where email=?");
             ps.setString(1,sess.getAttribute("email").toString());
             ResultSet rs = ps.executeQuery();
             rs.next();
@@ -80,7 +80,7 @@
             s.setName(rs.getString("name"));
             s.setPhone(rs.getString("Phone"));
             s.setSpecialization(rs.getString("Specialization"));
-             s.setPicture(rs.getString("Picture"));
+             //s.setPicture(rs.getString("Picture"));
        
         
         %>

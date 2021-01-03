@@ -29,9 +29,12 @@ public class EncryptText {
            
             return result;
         } catch (NoSuchAlgorithmException ex) {
-          return null;
+            
+          return ex.getMessage();
         }
         
     }
+   
+   
    //getEncrypted(getEncrypted(getEncrypted("12345","MD5"),"SHA-1"),"MD5")
 }

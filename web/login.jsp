@@ -15,11 +15,11 @@
         <%
             try{
             Connection con= ConnectionDb.getConnection();
-            String loginAs = request.getParameter("login_as");
+            String loginAs = request.getParameter("login_as").toLowerCase();
             String email = request.getParameter("email");
             String pass = request.getParameter("pass");
             
-            out.print(email);
+            out.print(email+" "+pass);
             
             pass = EncryptText.getEncrypted(EncryptText.getEncrypted(EncryptText.getEncrypted(pass,"MD5"),"SHA-1"),"MD5");
             RequestDispatcher rd;
