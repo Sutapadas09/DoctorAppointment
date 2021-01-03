@@ -21,7 +21,7 @@
                 }else if(t.equals("doctor")){
                     response.sendRedirect("welcomeD.html");
                 }else{
-                    response.sendRedirect("welcomeC.html");
+                    response.sendRedirect("welcome_clinic.jsp");
                 }
             }
             else{
