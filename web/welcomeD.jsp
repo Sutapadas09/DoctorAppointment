@@ -135,5 +135,20 @@
                  </div>
                </div>
              </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button class="btn btn-primary">Register for Clinic</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-danger">See patient Booking</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-success">Register for Clinic</button>
+                        </div>
+                    </div>
+                    
+                </div>
     </body>
 </html>
