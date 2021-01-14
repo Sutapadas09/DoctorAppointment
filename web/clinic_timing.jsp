@@ -1,8 +1,3 @@
-<%-- 
-    Document   : clinic_timing
-    Created on : 14 Jan, 2021, 10:55:06 PM
-    Author     : Sutapa
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
