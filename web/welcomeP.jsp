@@ -26,6 +26,8 @@
                 border:2px solid white;
                 text-align:center;
 
+               
+
             }
         </style>
     </head>
@@ -47,9 +49,9 @@
                     <img src="images/g13.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="col-md-3 btn-ctr d-flex align-items-center justify-content-center ">
+                    <a type="button" class="btn btn-Primary "style="font-size: 30px;font-weight: bolder; "href="patient_registration.jsp">patient registration</a>
                     
-                    <a type="button" class="btn btn-primary" style="font-weight:bolder;font-size: 30px;"href="patient_registration.jsp">Patient Registration</a>
-              
+                   
                 </div>
             </div>
         </div>
@@ -59,16 +61,16 @@
             <div class="row">
 
                 <div class="col-md-3">
-                    <button type="button" class="btn btn-primary">Book Appointment</button>
+                    <button type="button" class="btn btn-primary" style="font-size:20px;font-weight: bolder;">Book Appointment</button>
                 </div>
                 <div class="col-md-3">
-                    <button type="button" class="btn btn-success">Show Appointment</button>
+                    <a type="button" class="btn btn-success"style="font-size:20px;font-weight: bolder;" href="show_appointment.jsp">Show Appointment</a>
                 </div>
                 <div class="col-md-3">
-                    <button type="button" class="btn btn-danger">Cancel Appointment</button>
+                    <a type="button" class="btn btn-danger"style="font-size:20px;font-weight: bolder;" href="cancel_appointment.jsp">Cancel Appointment</a>
                 </div>
                 <div class="col-md-3">
-                    <button type="button" class="btn btn-dark">Edit Profile</button>
+                    <button type="button" class="btn btn-dark"style="font-size:20px;font-weight: bolder;">Edit Profile</button>
                 </div>
             </div>   
         </div>

@@ -30,7 +30,7 @@
             <form>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Patient Name </label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name with surname">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Patient Phone Number </label>
