@@ -53,7 +53,7 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div style="text-align:center;">
-                    <button type="button" class="btn btn-primary">Submit</button>
+                   <a  type="button" class="btn btn-primary"href="welcome_clinic.jsp">Submit</a>
                 </div>
             </form>
         </div>
